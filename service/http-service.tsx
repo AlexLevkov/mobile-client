@@ -1,11 +1,6 @@
 import axios from 'axios';
 
-// interface PostData {
-//     key: string;
-//     value: string;
-// }
-
-export const postRequest = async (url: string, data:any) => {
+export const postRequest = async (url: string, data:object) => {
     try {
         const response = await axios.post(url, data);
         return response.data;
