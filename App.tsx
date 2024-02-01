@@ -26,10 +26,8 @@ export default function App() {
         console.log('aws')
         setAppStatus('Compression was completed successfully')
       }
-      // Alert.alert("Notification Received", message);
     });
 
-    // return () => subscription.remove();
   }, []);
 
   return (
